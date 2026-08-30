@@ -1,0 +1,100 @@
+# PaperMod configuration.
+# See https://github.com/adityatelange/hugo-PaperMod/wiki/ for full param docs.
+
+baseURL = "http://localhost:1313/"
+title = "Jabez Hu"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[services.rss]
+  limit = 20            # was: rssLimit
+
+[pagination]
+  pagerSize = 5
+
+# language support
+defaultContentLanguage = "en"
+[languages.en]
+  locale = "en"
+  label = "English"
+  weight = 1
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+#[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+#[[menu.main]]
+#  identifier = "archives"
+#  name = "Writings"
+#  url = "/post/"
+#  weight = 20
+#[[menu.main]]
+#  identifier = "tags"
+#  name = "Tags"
+#  url = "/tags/"
+#  weight = 30
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40
+[[menu.main]]
+  name = "external-link"
+  url = "https://gohugo.io"
+  weight = 50
+
+[params]
+  env = "production"
+  author = "Jabez Hu"
+  description = "Hugo theme jane example site."   # TODO: write a real site description
+  keywords = ["Hugo", "theme", "PaperMod"]
+  DateFormat = "2006-01-02"      # was: dateFormatToUse
+
+  defaultTheme = "auto"          # auto/light/dark
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true       # was: rssFullContent
+  ShowToc = true                 # was: toc = true
+  TocOpen = false
+  UseHugoToc = true
+  
+  ShareButtons = ["x"] # add socials accordingly
+
+  [params.label]
+    text = "Jabez Hu"            # was: logoTitle
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jabezhu0617@email.com"    # TODO: placeholder, was never filled in under jane either
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "http://localhost:1313"    # TODO: placeholder
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "http://localhost:1313"    # TODO: placeholder
+  [[params.socialIcons]]
+    name = "github"
+    url = "http://localhost:1313"    # TODO: placeholder
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
