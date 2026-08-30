@@ -2,7 +2,7 @@
  "compilerOptions": {
   "paths": {
    "*": [
-    "..\\themes\\jane\\assets\\*"
+    "..\\themes\\PaperMod\\assets\\*"
    ]
   }
  }
