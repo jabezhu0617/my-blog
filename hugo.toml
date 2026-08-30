@@ -27,10 +27,10 @@ defaultContentLanguage = "en"
   filename = "sitemap.xml"
 
 #[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 10
+#  identifier = "home"
+#  name = "Home"
+#  url = "/"
+#  weight = 10
 #[[menu.main]]
 #  identifier = "archives"
 #  name = "Writings"
@@ -54,7 +54,7 @@ defaultContentLanguage = "en"
 [params]
   env = "production"
   author = "Jabez Hu"
-  description = "Hugo theme jane example site."   # TODO: write a real site description
+  description = "Jabez Hu's Blog."   # TODO: write a real site description
   keywords = ["Hugo", "theme", "PaperMod"]
   DateFormat = "2006-01-02"      # was: dateFormatToUse
 
