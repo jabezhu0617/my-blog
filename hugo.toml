@@ -47,6 +47,10 @@ defaultContentLanguage = "en"
   url = "/about/"
   weight = 40
 [[menu.main]]
+  name = "Twitter"
+  url = "https://x.com/asdbez"
+  weight = 45
+[[menu.main]]
   name = "GitHub"
   url = "https://github.com/jabezhu0617"
   weight = 50
@@ -62,7 +66,7 @@ defaultContentLanguage = "en"
   disableThemeToggle = false
 
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -72,8 +76,6 @@ defaultContentLanguage = "en"
   ShowToc = true                 # was: toc = true
   TocOpen = false
   UseHugoToc = true
-  
-  ShareButtons = ["x"] # add socials accordingly
 
   [params.label]
     text = "Jabez Hu"            # was: logoTitle
