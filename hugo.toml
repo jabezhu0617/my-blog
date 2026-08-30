@@ -47,8 +47,8 @@ defaultContentLanguage = "en"
   url = "/about/"
   weight = 40
 [[menu.main]]
-  name = "external-link"
-  url = "https://gohugo.io"
+  name = "GitHub"
+  url = "https://github.com/jabezhu0617"
   weight = 50
 
 [params]
