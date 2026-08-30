@@ -80,16 +80,16 @@ defaultContentLanguage = "en"
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:jabezhu0617@email.com"    # TODO: placeholder, was never filled in under jane either
+    url = "mailto:jabezhu0617@gmail.com"    
   [[params.socialIcons]]
     name = "twitter"
-    url = "http://localhost:1313"    # TODO: placeholder
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "http://localhost:1313"    # TODO: placeholder
+    url = "https://x.com/asdbez"    
+  #[[params.socialIcons]]       # skip for now
+    #name = "linkedin"
+    #url = "http://localhost:1313"    
   [[params.socialIcons]]
     name = "github"
-    url = "http://localhost:1313"    # TODO: placeholder
+    url = "https://github.com/jabezhu0617"    
 
 [markup]
   [markup.highlight]
