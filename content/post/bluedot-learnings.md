@@ -10,7 +10,7 @@ TocOpen: false
 ---
 
 
-After going through some of BlueDot Impact’s Future of AI, AGI Strategy, and Technical AI Safety, I wanted to write down some learnings publicly to think more clearly about what I learned. Here are some of my thoughts.
+After going through some of BlueDot Impact’s courses (Future of AI, AGI Strategy, and Technical AI Safety), I wanted to write down some learnings publicly to think more clearly about what I learned. Here are some of my thoughts.
 
 AI capabilities will continue to improve as compute hardware and algorithms advance. It might not have the capability to disempower us right now, but we must make sure there is never a chance in the future that its capabilities surpass our safety measures and lead to our demise. The biggest problems, in my opinion, that come with a powerful AI are misalignment, development of CBRN weapons, and concentration of power. 
 
