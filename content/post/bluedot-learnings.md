@@ -1,6 +1,7 @@
 ---
 title: "BlueDot Impact Learnings"
 date: 2026-08-31T15:32:27-04:00
+lastmod: 2026-08-31T17:03:56-04:00
 draft: false
 description: ""
 tags: []
