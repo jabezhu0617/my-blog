@@ -17,7 +17,6 @@ For far too long, I have been running from the reality that AI is real and will 
 
 After talking with my friend, I discovered the field of AI safety as we caught up and later on met lots of other people in AI safety. The more I heard about it, the more I felt deep down that this is the moment I have been waiting for: a pathway to spend my time doing meaningful work. Once I returned home, I pondered hard about this life pivot, and after hours of journaling and thinking, I resolved to spend this next school year learning all that I can about the field in order to drop out and start contributing to AI safety and doing meaningful work full time. 
 
-
 I want this blog to be a place to share and track what I have learned and what I am doing. 
 
 <!--more-->
